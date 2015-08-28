@@ -43,6 +43,7 @@ Ext.define('FIFA.view.main.master.SearchForm', {
             xtype: 'numberfield',
             name: 'aniosclub',
             reference: 'aniosclub',
+            minValue: 0,
             fieldLabel: 'Antigüedad en club'
         }, {
             xtype: 'datefield',

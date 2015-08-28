@@ -45,10 +45,11 @@ Ext.define('FIFA.view.main.detail.Detail', {
             xtype: 'numberfield',
             name: 'aniosclub',
             reference: 'aniosclubDtl',
-            minValue: 1,
+            minValue: 0,
             fieldLabel: 'Antigüedad',
             columnWidth: 0.5,
-            dataIndex: 'aniosclub'
+            dataIndex: 'aniosclub',
+            value:0
         }, {
             xtype: 'datefield',
             name: 'cumpleanios',
