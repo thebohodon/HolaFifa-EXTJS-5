@@ -1,0 +1,62 @@
+.viewportApp .x-panel-header .x-title-text{
+    text-transform: uppercase;
+}
+
+@-webkit-keyframes movimiento-diagonal {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+#title-1054-textEl{
+    text-transform: uppercase;
+    font-size: 18px;
+    -webkit-animation-name: movimiento-diagonal;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+    position: relative;
+    padding: 2px;
+}
+
+.searchform .x-panel-body  {
+    padding-left: 20px;
+}
+
+.searchform .x-panel-body .x-field {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
+}
+.searchform .x-form-checkboxgroup .x-form-item-label {
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.searchform .x-panel-body .x-form-item-label {
+    font-family: 'Indie Flower', cursive;
+}
+.x-column-header-inner{
+    text-transform: uppercase;
+}
+
+
+
+.detail .x-panel-body  {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.detail .x-panel-body .x-field {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.detail .x-form-checkboxgroup .x-form-item-label {
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.detail .x-panel-body .x-form-item-label {
+    font-family: 'Indie Flower', cursive;
+}

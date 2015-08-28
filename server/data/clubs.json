@@ -1,0 +1,21 @@
+[
+  {
+    "idequipo": 0,
+    "nombre": "Sin equipo"
+  },
+  {
+    "idequipo": 1,
+    "nombre": "Real Madrid",
+    "pais": "España"
+  },
+  {
+    "idequipo": 2,
+    "nombre": "F.C. Barcelona",
+    "pais": "España"
+  },
+  {
+    "idequipo": 3,
+    "nombre": "Chelsea",
+    "pais": "Inglaterra"
+  }
+]

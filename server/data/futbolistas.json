@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"nombre": "Cristiano Ronaldo",
+		"nacionalidad": "Portuguesa",
+		"idequipo": 1,
+		"nombreequipo": "Real Madrid",
+		"aniosclub": 7,
+		"cumpleanios": "05-02-1985",
+		"balonoro": true
+	},
+	{
+		"id": 2,
+		"nombre": "Lionel Messi",
+		"nacionalidad": "Argentina",
+		"idequipo": 2,
+		"nombreequipo": "F.C. Barcelona",
+		"aniosclub": 12,
+		"cumpleanios": "24-06-1987",
+		"balonoro": true
+	},
+	{
+		"id": 3,
+		"nombre": "Diego Costa",
+		"nacionalidad": "Española",
+		"idequipo": 3,
+		"nombreequipo": "Chelsea",
+		"aniosclub": 2,
+		"cumpleanios": "07-10-1988",
+		"balonoro": false
+	}
+]
