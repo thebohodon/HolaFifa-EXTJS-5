@@ -15,7 +15,7 @@ exports.Clubs = (function () {
         var d = Q.defer();
 
         //leemos del sistema de ficheros
-        fs.readFile('./server/data/clubs.json', 'utf8', function (err, data) {
+        fs.readFile('./data/clubs.json', 'utf8', function (err, data) {
             if (err) {
                 d.reject(err);
             } else {
