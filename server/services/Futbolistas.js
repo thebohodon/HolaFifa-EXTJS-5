@@ -16,7 +16,7 @@ exports.Futbolistas = (function () {
     save = function () {
         var d = Q.defer();
         //persistimos en el sistema de ficheros
-        fs.writeFile('./server/data/futbolistas.json', JSON.stringify(futbolistas, null, '\t'), function (err) {
+        fs.writeFile('./data/futbolistas.json', JSON.stringify(futbolistas, null, '\t'), function (err) {
 
             if (err) {
                 console.log(err);
